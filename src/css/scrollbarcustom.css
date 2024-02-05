@@ -1,0 +1,25 @@
+html {
+    scrollbar-width: normaş;
+    scrollbar-color: #777 #555;
+  }
+
+  html::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  html::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 10px;
+  }
+
+  html::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+  }
+
+  html::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  html::-webkit-scrollbar-track:hover {
+    background-color: transparent;
+  }
